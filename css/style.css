@@ -1,0 +1,55 @@
+.listcontent{
+    display: flex;
+    float:left;
+    width: 30%;
+    line-height: 2px;
+   text-align:left;
+}
+#product{
+    display: flex;
+    float: right;
+    width: 70%;
+    
+  
+}
+#product :hover{
+    color: #4FA650;
+}
+
+ul li{
+    list-style: none;
+}
+.listcontent ul li a{
+   
+    color: rgb(48, 47, 47);
+   font-size: 12px;
+   margin-left: 5px;
+}
+.filterlistcontent ul li a{
+   
+    color: rgb(48, 47, 47);
+   font-size: 12px;
+   margin-left: 5px;
+}
+
+
+
+@media screen and (min-width: 767px) {
+
+    .filter{
+        display: none;
+      
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .listcontent{
+        display: none;
+        
+    }
+    #product{
+        margin: auto;
+        width: 100%;
+}
+}
